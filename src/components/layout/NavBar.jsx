@@ -16,8 +16,8 @@ function NavBar({ toggle, setToggle }) {
         >
           <span></span>
         </div>
-        <a href="/">home</a>
-        <a href="/tarefas">tarefas</a>
+        <a href="https://luizlfsr.github.oi/VitaVogue/">home</a>
+        <a href="https://luizlfsr.github.oi/VitaVogue/tarefas">tarefas</a>
       </nav>
     </header>
   );

@@ -43,9 +43,9 @@ function App() {
         <NavBar toggle={toggle} setToggle={setToggle}/>
         <Container costumClass="min-height">
           <Routes>
-            <Route exact path="/" element={<Home />} />
-            <Route path='/novatarefa' element={<NovaTarefa />} />
-            <Route path="/tarefas" element={<Tarefas />}/>
+            <Route exact path="https://luizlfsr.github.oi/VitaVogue/" element={<Home />} />
+            <Route path='https://luizlfsr.github.oi/VitaVogue/novatarefa' element={<NovaTarefa />} />
+            <Route path="https://luizlfsr.github.oi/VitaVogue/tarefas" element={<Tarefas />}/>
           </Routes>
         </Container>
         <Footer />
