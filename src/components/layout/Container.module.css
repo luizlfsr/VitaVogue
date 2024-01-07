@@ -1,0 +1,10 @@
+.container {
+  width: 1000px;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.min-height {
+  min-height: 75vh;
+}

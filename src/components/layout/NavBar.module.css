@@ -1,0 +1,53 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  padding: 20px 40px;
+}
+
+.nav {
+  display: flex;
+  font-size: 1.3em;
+  gap: 20px;
+  text-transform:capitalize;
+}
+
+.nav a {
+  text-decoration: none;
+  color: var(--verde_claro);
+  transition:  ease-in .3s;
+}
+
+.nav a:hover {
+  color: var(--laranja);
+  cursor: pointer;
+}
+
+.toggle_button {
+  display: flex;
+  align-self: center;
+  width: 50px;
+  height: 25px;
+  border: 2px solid #ccc;
+  background-color: #242424dd;
+  border-radius: 30px;
+  padding: 2px;
+
+}
+
+.toggle_button span {
+  width: 15px;
+  height: 15px;
+  border: 7px solid var(--Cinza_Claro);
+  align-self: center;
+  border-radius: 50%;
+}
+
+.toggle_button.active {
+  justify-content: right;
+  background-color: var(--Cinza_Claro);
+}
+.toggle_button.active span {
+  border-color: var(--dark);
+}

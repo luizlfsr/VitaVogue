@@ -1,0 +1,25 @@
+.card {
+  border: none;
+  border-bottom: 1px solid #ffbb33;
+  padding: 20px;
+  width: 100%;
+  font-weight: bold;
+  margin: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+}
+
+.card_button {
+  color: var(--verde);
+  border: 2px solid #ffbb3379;
+  border-radius: 5px;
+  padding: 8px;
+  background-color: transparent;
+  font-size: 16px;
+  transition: ease-in-out .3s;
+}
+.card_button:hover {
+  background-color: var(--Amarelo_Claro);
+}
